@@ -1,0 +1,58 @@
+.events-section {
+    padding: 80px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.events-section .section-header h2 {
+    color: #2563EB;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.events-section .section-header p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.events-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    background: #F3F4F6;
+    border-radius: 16px;
+    padding: 28px 20px;
+    width: 300px;
+    box-shadow: 0 16px 32px rgba(37, 99, 235, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px rgba(37, 99, 235, 0.15);
+}
+
+.event-card h3 {
+    font-size: 20px;
+    color: #1E3A8A;
+    margin-bottom: 6px;
+}
+
+.event-card span {
+    font-size: 14px;
+    color: #22C55E;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.event-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
